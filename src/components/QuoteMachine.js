@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import QuoteBox from './QuoteBox';
 
-class QuoteMachine extends Component {
+export class QuoteMachine extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -51,6 +51,4 @@ class QuoteMachine extends Component {
       </div>
     );
   }
-}
-
-export default QuoteMachine;
+};
